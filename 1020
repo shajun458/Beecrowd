@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int age,temp,year,month,day;
+    scanf("%d",&age);
+    year = age/365;
+    temp = age%365;
+    month = temp/30;
+    day = temp%30;
+    printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n",year,month,day);
+
+}
