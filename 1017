@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main ()
+{
+    int hr,km;
+    double fuel;
+    scanf("%d%d",&hr,&km);
+    fuel = km/12.0*hr;
+    printf("%.3lf\n",fuel);
+
+    return 0;
+}
